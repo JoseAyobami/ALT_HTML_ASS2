@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Ass Webpage</title>
+</head>
+<body>
+    <!-- Page 2: Media elements about myself -->
+
+<div>
+    <h1>About Me</h1>
+    <h2>My Journey and Aspirations</h2>
+    
+    <p>Hello! I am Josh, a passionate software engineering student at AltSchool Africa. I thrive on building impactful solutions and crafting elegant code.</p>
+</div>
+
+
+<!-- Picture Element -->
+
+    <section>
+        <picture>
+            <source srcset="me-mobile.jpg" media="(max-width: 600px)">
+            <source srcset="me-tablet.jpg" media="(max-width: 1024px)">
+            <source srcset="me-desktop.jpg" media="(min-width: 1025px)">
+            <img src="me-default.jpg" alt="Josh - Software Engineering Student">
+        </picture>
+    </section>
+  
+
+
+<!-- Audio Element -->
+
+    <section>
+        <h3>Listen to My Story</h3>
+        <audio controls>
+            <source src="mystory.mp3" type="audio/mpeg">
+            <source src="mystory.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+   
+
+
+ <!-- Video Element -->
+    <section>
+        <h3>Watch My Journey</h3>
+        <video controls>
+            <source src="journey.mp4" type="video/mp4">
+            <source src="journey.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    
+</body>
+</html>
